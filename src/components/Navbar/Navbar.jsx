@@ -5,8 +5,11 @@ import {
   FaUser,
   FaSearch,
 } from "react-icons/fa";
+import { useCart } from "../../context/CartContext";
 
 function Navbar() {
+  const { totalItems } = useCart();
+
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
@@ -50,19 +53,13 @@ function Navbar() {
             </li>
 
             <li>
-              <a
-                href="#"
-                className="hover:text-blue-600 transition"
-              >
+              <a href="#" className="hover:text-blue-600 transition">
                 New Arrivals
               </a>
             </li>
 
             <li>
-              <a
-                href="#"
-                className="hover:text-blue-600 transition"
-              >
+              <a href="#" className="hover:text-blue-600 transition">
                 Contact
               </a>
             </li>
@@ -81,13 +78,16 @@ function Navbar() {
             <FaHeart />
           </button>
 
-          <button className="relative hover:text-blue-600 transition">
+          <Link
+            to="/cart"
+            className="relative hover:text-blue-600 transition"
+          >
             <FaShoppingCart />
 
             <span className="absolute -top-2 -right-3 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-              0
+              {totalItems}
             </span>
-          </button>
+          </Link>
 
           <button className="hover:text-blue-600 transition">
             <FaUser />
