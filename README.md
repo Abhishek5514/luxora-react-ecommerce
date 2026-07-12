@@ -70,38 +70,39 @@ src
 
 ### Home Page
 
-![Home](./public/screenshots/home.png)
+![Home](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/home.png)
+
 
 ---
 
 ### Shop Page
 
-![Shop](./public/screenshots/shop.png)
+![Shop](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/shop.png)
 
 ---
 
 ### Product Details
 
 
-![Product Details](./public/screenshots/product-details.png)
+![Product Details](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/product-details.png)
 ---
 
 ### Wishlist
 
-![Wishlist](./public/screenshots/wishlist.png)
+![Wishlist](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/wishlist.png)
 
 ---
 
 ### Shopping Cart
 
-![Cart](./public/screenshots/cart.png)
+![Cart](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/cart.png)
 
 ---
 
 ### Contact Page
 
 
-![Contact](./public/screenshots/contact.png)
+![Contact](https://raw.githubusercontent.com/Abhishek5514/luxora-react-ecommerce/main/public/screenshots/contact.png)
 
 - Home Page
 - Shop Page
