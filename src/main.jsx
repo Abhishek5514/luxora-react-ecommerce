@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 import "./index.css";
 import App from "./App";
@@ -8,17 +9,23 @@ import App from "./App";
 import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
 
-import { Toaster } from "react-hot-toast";
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
-      <WishlistProvider>
-        <CartProvider>
+    <BrowserRouter
+      basename={
+        import.meta.env.PROD ? "/luxora-react-ecommerce" : "/"
+      }
+    >
+      <CartProvider>
+        <WishlistProvider>
+          <Toaster
+            position="top-right"
+            reverseOrder={false}
+          />
+
           <App />
-          <Toaster position="top-right" />
-        </CartProvider>
-      </WishlistProvider>
+        </WishlistProvider>
+      </CartProvider>
     </BrowserRouter>
   </StrictMode>
 );
