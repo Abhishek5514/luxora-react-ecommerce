@@ -1,16 +1,161 @@
-# React + Vite
+# LUXORA - Premium React E-commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive React E-commerce application built using **React.js**, **Vite**, **Tailwind CSS**, **React Router**, and **Context API**.
 
-Currently, two official plugins are available:
+This project demonstrates a complete frontend shopping experience including product browsing, wishlist management, shopping cart, checkout flow, product filtering, search functionality, and responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+LUXORA is a premium fashion E-commerce frontend application designed with a clean user interface and modern React architecture. The application focuses on performance, responsive design, reusable components, and an intuitive shopping experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive Design (Mobile, Tablet & Desktop)
+- Modern User Interface
+- Product Listing
+- Product Details Page
+- Related Products
+- Category Filtering
+- Product Search
+- Product Sorting
+- Shopping Cart
+- Wishlist
+- Checkout Page
+- Order Success Page
+- Contact Page
+- New Arrivals Page
+- Flash Sale Section
+- Live Countdown Timer
+- Scroll To Top
+- Custom 404 Page
+- Toast Notifications
+- Local Storage Support
+- React Context API State Management
+- React Router Navigation
+
+---
+
+## Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend |
+| Vite | Build Tool |
+| Tailwind CSS | Styling |
+| React Router DOM | Routing |
+| Context API | State Management |
+| React Icons | Icons |
+| React Hot Toast | Notifications |
+
+---
+
+## Folder Structure
+
+```text
+src
+│
+├── components
+├── context
+├── data
+├── pages
+├── assets
+├── App.jsx
+└── main.jsx
+---
+## 📸 Project Screenshots
+
+### Home Page
+
+![Home](./public/screenshots/home.png)
+
+---
+
+### Shop Page
+
+![Shop](./public/screenshots/shop.png)
+
+---
+
+### Product Details
+
+
+![Product Details](./public/screenshots/product-details.png)
+---
+
+### Wishlist
+
+![Wishlist](./public/screenshots/wishlist.png)
+
+---
+
+### Shopping Cart
+
+![Cart](./public/screenshots/cart.png)
+
+---
+
+### Contact Page
+
+
+![Contact](./public/screenshots/contact.png)
+
+- Home Page
+- Shop Page
+- Product Details
+- Wishlist
+- Shopping Cart
+- Checkout
+- Contact Page
+
+---
+
+## Future Enhancements
+
+- User Authentication
+- Admin Dashboard
+- Payment Gateway Integration
+- Order Tracking
+- Product Reviews & Ratings
+- Dark Mode
+- Backend Integration
+- REST API Integration
+
+---
+
+## Learning Outcomes
+
+This project helped me strengthen my understanding of:
+
+- React Component Architecture
+- Context API
+- React Router
+- State Management
+- Responsive UI Design
+- Reusable Components
+- Local Storage
+- Frontend Project Structure
+
+---
+
+## Author
+
+**Abhishek**
+
+GitHub:
+https://github.com/Abhishek5514
+
+---
+
+## License
+
+This project is created for learning and portfolio purposes.
+
+---
+
+## Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
